@@ -36,7 +36,7 @@
  
  /* Jam */
 
- .jam-digital-malasngoding {
+ .jam_digital {
      overflow: hidden;
      width: 330px;
      margin: 20px auto;
@@ -48,7 +48,7 @@
      height: 100px;
      background-color: #189fff;
  }
- .jam-digital-malasngoding p {
+ .jam_digital p {
      color: #fff;
      font-size: 36px;
      text-align: center;
