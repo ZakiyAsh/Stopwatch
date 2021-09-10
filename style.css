@@ -1,0 +1,78 @@
+#header {
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #cccccc; 
+ }
+ 
+ #content {
+     padding: 10px;
+     border: 1px solid #000000;
+     width: 1265px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+ }
+ 
+ .gambar {
+     float: left;
+     width: 150px;
+     margin-right: 10px;
+     margin-left: 0px;
+     margin-bottom: 10px;
+     margin-top: 0px;
+ }
+ 
+ #content p {
+     margin-top: 0px;
+     text-align: justify;
+     line-height: 95px;
+     margin-left: 38px;
+ }
+ 
+ h1 {
+     text-align: center;
+     font-family: sans-serif;
+     font-weight: normal;
+ }
+ 
+ /* Jam */
+
+ .jam-digital-malasngoding {
+     overflow: hidden;
+     width: 330px;
+     margin: 20px auto;
+     border: 5px solid #efefef;
+ }
+ .kotak{
+     float: left;
+     width: 110px;
+     height: 100px;
+     background-color: #189fff;
+ }
+ .jam-digital-malasngoding p {
+     color: #fff;
+     font-size: 36px;
+     text-align: center;
+     margin-top: 30px;
+ }
+
+ /* Stopwatch */
+
+.stopwatch {
+    font-size: 14em;
+    font-family: monospace;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+button {
+    cursor:pointer;
+    border-radius:5px;
+    padding: 5px 10px;
+}

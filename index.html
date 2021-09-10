@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Stopwatch</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>STOPWATCH</h1>
+        </div>
+
+        <div id="content">
+            <img src="Logo.jpg" class="gambar"/>
+            
+            <div class="jam-digital-malasngoding">
+                <div class="kotak">
+                    <p id="jam"></p>
+                </div>
+                <div class="kotak">
+                    <p id="menit"></p>
+                </div>
+                <div class="kotak">
+                    <p id="detik"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button onclick="start()">Start</button>
+            <button onclick="pause()">Pause</button>
+            <button onclick="stop()">Stop</button>
+            <button onclick="restart()">Restart</button>
+            <button onclick="lap()">Lap</button>
+            <button onclick="resetLaps()">Reset Laps</button>
+        </div>
+        <div class="stopwatch">00:00:00</div>
+        <ul class="laps"></ul>
+
+        <script src="stopwatch.js"></script>
+    </body>
+</html>
